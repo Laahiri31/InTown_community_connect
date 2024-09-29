@@ -1,4 +1,6 @@
 # iith_app
+<h3>Application Developed by:-</h3>
+<h4>N SRI LAAHIRI INDHIRANI laahiri31@gmail.com<br>V SRI BHAVESH CHOWDARY bhaveshsri777@gmail.com<br>PATLOLLA SRIGNITHA <br> THANGEDA SHASHIDER <br> bANDARU SHRUTHI</h4>
 <h1>community engagement application (InTown)</h1>
 This documentation provides an in-depth look at the community engagement application, explaining its purpose, key features, the overall structure of the code, and how users can get started. The app is built with Flutter and is designed to help users connect, engage, and stay informed about their local community.
 Table of content:-
