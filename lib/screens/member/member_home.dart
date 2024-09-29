@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:iith_app/screens/member/member_edit.dart';
+import 'package:iith_app/screens/member/member_event.dart';
 
 class MemberHomePage extends StatelessWidget {
   @override
@@ -11,7 +12,8 @@ class MemberHomePage extends StatelessWidget {
           IconButton(
             icon: Icon(Icons.person), // You can use any icon you prefer
             onPressed: () {
-              Navigator.pushNamed(context, '/profile'); // Navigate to the profile page
+              Navigator.pushNamed(
+                  context, '/profile'); // Navigate to the profile page
             },
           ),
         ],
@@ -29,7 +31,7 @@ class MemberHomePage extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => EventsPage(),
+                    builder: ((context) => MemberEventsScreen()),
                   ),
                 );
               },
