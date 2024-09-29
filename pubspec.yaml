@@ -30,6 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  fl_chart : ^0.40.0
+  table_calendar : ^3.0.8
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -62,6 +64,13 @@ flutter:
   assets:
   
    - images/google_logo.png
+   - images/group.png
+   - images/bubbles.png   
+   - images/diwali.png   
+   - images/dushera.png   
+   - images/christmas.png 
+     
+   
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

@@ -10,7 +10,7 @@ class GoogleSignUpButton extends StatelessWidget {
     return ElevatedButton(
       onPressed: () {
         // Add your Google sign-up logic here
-        onPressed();
+        Navigator.of(context).pushNamed('/home');
       },
       style: ElevatedButton.styleFrom(
         primary: Colors.white, // Button background color
